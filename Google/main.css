@@ -1,0 +1,237 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+}
+
+
+
+.header {
+   width: 100%;
+   height: 100px;
+}
+
+.header .menu {
+   float: right;
+   margin-right: 30px;
+}
+
+.header .menu li {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 5px;
+    margin-right: 10px;
+    
+}
+
+.header .menu li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+.name {
+    margin-left: 10px;
+    bottom: 8px;
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+    border: 0px;
+    border-radius: 50%;
+    color: white;
+    background-color: #0080c0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.header .menu li:hover a {
+    text-decoration: underline;
+}
+
+.header .menu li .app {
+    
+}
+
+.section {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.section--logo {
+    margin-top: 150px;
+    height: 92px;
+}
+
+ .logo {
+    margin: 0 auto;
+    width: 272px;
+    height: 92px;
+    background-image: url(img/google_logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section--search {
+    margin-top: 50px;
+    height: 70px;
+}
+
+.search--form {
+    display: flex;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    align-items: center;
+}
+
+#search {
+    width: 380px;
+    border: none;
+}
+
+#search:focus{
+    outline: none;
+}
+
+.zoom {
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/search.svg);
+    background-size: contain;
+
+}
+
+.key {
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/keyboard.png);
+    background-size: contain;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.mic {
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/mic.svg);
+    background-size: contain;
+    cursor: pointer;
+}
+
+.section--button {
+    height: 100px;
+}
+
+.content--button {
+    width: 260px;
+    margin: 0 auto;
+}
+
+.button--group {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.btn {
+    height: 36px;
+    border: none;
+    background-color: #F8F9FA;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    line-height: 27px;
+    color: #3c4043;
+}
+.btn--search {
+    margin-right: 30px;
+}
+.btn--lucky {
+    width: 143px;
+    text-align: center;
+}
+
+.btn:hover {
+    border: 1px solid #c0c0c0;
+    position: relative;
+}
+
+.service {
+    margin-left: 20px;
+}
+
+.service a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.service a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    font-size: 12px;
+    color: #70757A;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer div {
+    height: 40px;
+    border-top: 1px solid #cfd4da;
+    box-sizing: border-box;
+}
+
+.footer .contury {
+    display: flex;
+    align-items: center;
+}
+
+.footer .contury--text {
+    margin-left: 40px;
+}
+
+.footer--menu li a {
+    color: #70757A;
+}
+
+.footer--menu li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer .left--menu {
+    display: flex;
+    float: left;
+}
+
+.footer .left--menu li {
+    margin-right: 20px;
+}
+
+.footer .right--menu {
+    display: flex;
+    float: right;
+    margin-right: 40px;
+}
+
+.footer .right--menu li {
+    margin-left: 20px;
+}
